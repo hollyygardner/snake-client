@@ -32,11 +32,11 @@ const handleUserInput = function (key) {
   }
 
   if (key === "q") {
-    connection.write("I am the best!")
+    connection.write("Say: I am the best!")
   }
 
   if (key === "e") {
-    connection.write("Nom nom nom")
+    connection.write("Say: Nom nom nom")
   }
 
 };
